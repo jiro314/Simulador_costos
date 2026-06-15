@@ -95,7 +95,7 @@ const App = () => {
                   </button>
                 </div>
                 {(resultado) && (
-                  <div className={`aler alert-${obtenerColor()} my-4`}>
+                  <div className={`alert alert-${obtenerColor()} my-4`}>
                     <h5>Costo:</h5>
                     <p>
                       <strong>Destino: </strong> {destino}
